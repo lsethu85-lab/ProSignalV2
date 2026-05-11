@@ -60,3 +60,84 @@ Browsers block API calls if opened directly from the file system.
 
 ```bash
 python -m http.server 8080
+
+Then open:
+http://localhost:8080/index.html
+
+Option 2: GitHub Pages (Free Hosting)
+
+Create a public GitHub repository
+Upload index.html and this README.md
+Enable GitHub Pages
+Open:
+
+https://<username>.github.io/<repo-name>/
+
+
+🔐 Data Sources (Key‑Free)
+
+Yahoo Finance
+
+Prices, fundamentals, historical data
+Latest headlines
+
+
+CORS proxy rotation
+
+Multiple fallbacks for reliability
+
+
+Pollinations AI
+
+Model: mistral
+Used only for signal explanation layer
+
+
+
+✅ No backend
+✅ No signup
+✅ No API keys
+✅ Runs entirely in your browser
+
+🔄 Auto‑Refresh Logic
+
+Market open → periodic refresh
+Market closed → refresh near next open
+Manual Refresh button always available
+
+
+🛠️ Tech Stack
+
+HTML5
+CSS (custom UI, no frameworks)
+Vanilla JavaScript
+Zero build tools
+Zero dependencies
+
+
+⚠️ Known Limitations
+
+Yahoo Finance may occasionally rate‑limit requests
+CORS proxies are best‑effort
+AI explanations depend on third‑party availability
+
+
+📌 Intended Use
+Best suited for:
+
+Swing trading
+Medium‑term investing
+Signal confirmation & risk awareness
+
+Not intended for high‑frequency trading.
+
+📄 License
+Personal / educational use.
+No financial advice. Use at your own risk.
+
+🧩 Possible Next Enhancements
+
+Fundamentals Health / Stable / Weak tags
+Portfolio export / import
+Settings panel (optional API keys)
+Theme toggle (dark / light)
